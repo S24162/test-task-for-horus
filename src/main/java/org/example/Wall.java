@@ -19,7 +19,9 @@ interface Structure {
 
 public class Wall implements Structure {
   private List<Block> blocks;
+
   //Start of my code------------------------------------------------------------
+
   private int count;
   public Wall() {
     blocks = new ArrayList<>();
